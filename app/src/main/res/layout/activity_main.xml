@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="287dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="IP address"
+        android:textSize="20dp" />
+
+    <EditText
+
+        android:id="@+id/txt_ip"
+        android:layout_width="212dp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:layout_width="287dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="Port number"
+        android:textSize="20dp" />
+
+    <EditText
+
+        android:id="@+id/txt_port"
+        android:layout_width="212dp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:layout_width="287dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="Mobile number"
+        android:textSize="20dp" />
+
+    <EditText
+
+        android:id="@+id/txt_mobile"
+        android:layout_width="212dp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:layout_width="287dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="Plate number"
+        android:textSize="20dp" />
+
+    <EditText
+
+        android:id="@+id/txt_plate"
+        android:layout_width="212dp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        />
+    <EditText
+        android:layout_width="287dp"
+        android:layout_height="200dp"
+        android:gravity="center"
+        android:hint="url api"
+        android:textSize="20dp"
+        android:id="@+id/txt_url"/>
+    <Button
+        android:id="@+id/btn_send_sms"
+        android:layout_width="151dp"
+        android:layout_height="wrap_content"
+        android:text="send sms "
+        />
+
+
+</LinearLayout></ScrollView>
