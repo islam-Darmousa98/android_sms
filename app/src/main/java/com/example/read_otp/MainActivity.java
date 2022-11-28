@@ -33,7 +33,6 @@ public class MainActivity extends AppCompatActivity {
     EditText txt_mob;
     EditText txtplate;
     EditText txt_url;
-    //String url="http://192.168.1.120:9095/smsQuery?";
     String url=null;
 
     //private MyReceiver BR = null;
@@ -60,8 +59,7 @@ public class MainActivity extends AppCompatActivity {
 
         requestsmspermission();
        // change_IP_Port();
-        txt_ip.setText("192.168.1.120");
-        txt_port.setText("9095");
+
         url=change_IP_Port( String.valueOf(txt_ip.getText()),String.valueOf(txt_port.getText()));
         //txt_url.setText(url);
         //url="http://"+txt_ip.getText()+":"+txt_port.getText()+"/smsQuery?";
